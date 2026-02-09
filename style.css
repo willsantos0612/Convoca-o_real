@@ -32,7 +32,7 @@ body{
   height: 100vw;
   transform: translate(-50%, -50%) rotate(-90deg);
   object-fit: cover;
-  opacity: 0.;
+  opacity: 1;
 
 }
 
@@ -68,7 +68,7 @@ min-height:60vh;
   border-radius: 40px;
   margin: 0;
   font-family:'Pinyon Script', cursive;
-  font-size: 15vh;
+  font-size: 5vh;
 
 }
 .img-tiana{
@@ -76,6 +76,17 @@ min-height:60vh;
     bottom: 0%;
     right: -106px;
     max-height:80vh;
-    opacity: 0.35;
+    opacity: 0.15;
     
+}
+.h3{
+    font-family: 'Playfair Display', serif;
+}
+.info{
+
+    background:#464c23 ;
+    width: 60%;
+    height: 30vh;
+    border-radius: 30px;
+    padding: 20%;
 }
